@@ -21,6 +21,8 @@
 		CECECE202370373300291565 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECECE1F2370373300291565 /* Data+Extensions.swift */; };
 		CECECE222370374000291565 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECECE212370374000291565 /* Date+Extensions.swift */; };
 		CECECE242370374F00291565 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECECE232370374F00291565 /* Double+Extensions.swift */; };
+		CECECE2823703A5A00291565 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECECE2723703A5A00291565 /* Bundle+Extensions.swift */; };
+		CECECE2A23703A6900291565 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECECE2923703A6900291565 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		CECECE1F2370373300291565 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
 		CECECE212370374000291565 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		CECECE232370374F00291565 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		CECECE2723703A5A00291565 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		CECECE2923703A6900291565 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +174,12 @@
 			isa = PBXGroup;
 			children = (
 				CECECE16237036DE00291565 /* Array */,
+				CECECE2523703A3D00291565 /* Bundle */,
 				CECECE17237036E400291565 /* Consule */,
 				CECECE18237036EF00291565 /* Data */,
 				CECECE19237036F400291565 /* Date */,
 				CECECE15237036D900291565 /* Double */,
+				CECECE2623703A4700291565 /* String */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -216,6 +222,22 @@
 				CECECE212370374000291565 /* Date+Extensions.swift */,
 			);
 			path = Date;
+			sourceTree = "<group>";
+		};
+		CECECE2523703A3D00291565 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				CECECE2723703A5A00291565 /* Bundle+Extensions.swift */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		CECECE2623703A4700291565 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				CECECE2923703A6900291565 /* String+Extensions.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +372,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECECDE32370366C00291565 /* ViewController.swift in Sources */,
+				CECECE2A23703A6900291565 /* String+Extensions.swift in Sources */,
+				CECECE2823703A5A00291565 /* Bundle+Extensions.swift in Sources */,
 				CECECE222370374000291565 /* Date+Extensions.swift in Sources */,
 				CECECE202370373300291565 /* Data+Extensions.swift in Sources */,
 				CECECE242370374F00291565 /* Double+Extensions.swift in Sources */,

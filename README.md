@@ -5,6 +5,8 @@
 - Data
 - Date
 - Double
+- Bundle
+- String
 
 # Author
 
